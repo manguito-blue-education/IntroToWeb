@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Da+2:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Adivina el Número</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2:400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <title>Adivina el Número</title>
-</head>
-
-<body>
-  <main>
-    <section class="card">
-      <h1>¡Adivina el Número!</h1>
-      <p>Adivina un número entre el 1 y el 100</p>
-      <input id="userNum" type="number" class="userNum" placeholder="Tu número">
-      <button id="guessButton">Adivinar</button>
-      <div class="footer" id="clues">
-        <p>Intentos: <span id="tries">2</span></p>
-        <p>Pista: <span id="clue">👍🏼</span></p>
-      </div>
-      <div class="footer" id="congrats">
-        <p>Felicidades! Le atinaste 🎉</p>
-      </div>
-    </section>
-  </main>
-  <script src="index.js"></script>
-</body>
-
+  <body>
+    <main>
+      <section class="card">
+        <h1>Adivina el Número</h1>
+        <p>Adivina un número entre el 1 y el 100</p>
+        <input
+          id="userNum"
+          type="text"
+          inputmode="numeric"
+          pattern="[0-9]*"
+          class="userNum"
+          placeholder="Tu número"
+        />
+        <button id="guessButton">Adivinar</button>
+        <div class="footer" id="clues">
+          <p>Intentos: <span id="tries">2</span></p>
+          <p>Pista: <span id="clue">👍🏼</span></p>
+        </div>
+        <div class="footer" id="congrats">
+          <p>¡Felicidades! Acertaste 🎉</p>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
