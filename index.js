@@ -13,6 +13,11 @@ const congratsContainer = document.getElementById("congrats");
 const tries = document.getElementById("tries");
 const clue = document.getElementById("clue");
 
+userNum.addEventListener(
+  "keyup",
+  event => event.keyCode === 13 && guessBtn.click()
+);
+
 guessBtn.addEventListener(
   "click",
   () => {
