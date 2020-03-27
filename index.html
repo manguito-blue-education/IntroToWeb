@@ -13,17 +13,18 @@
   <main>
     <section class="card">
       <h1>¡Adivina el Número!</h1>
-      <input type="text" class="user_num" placeholder="Tu número">
-      <button>Adivinar</button>
+      <input id="userNum" type="text" class="userNum" placeholder="Tu número">
+      <button id="guessButton">Adivinar</button>
       <div class="footer" id="clues">
-        <p>Intentos: 2</p>
-        <p>Pista: 👍🏼</p>
+        <p>Intentos: <span id="tries">2</span></p>
+        <p>Pista: <span id="clue">👍🏼</span></p>
       </div>
       <div class="footer" id="congrats">
         <p>Felicidades! Le atinaste 🎉</p>
       </div>
     </section>
   </main>
+  <script src="index.js"></script>
 </body>
 
 </html>

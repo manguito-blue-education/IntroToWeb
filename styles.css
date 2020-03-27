@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Baloo Da 2" ;
+  font-family: "Baloo Da 2";
 }
 
 button {
@@ -16,11 +16,11 @@ button {
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   background-color: #7f7fd5;
 }
 
-button:active{
+button:active {
   background: #535391;
 }
 
@@ -32,7 +32,6 @@ main {
   justify-content: center;
   background: linear-gradient(to bottom right, #7f7fd5, #86a8e7, #91eae4);
 }
-
 
 .card {
   width: 50%;
@@ -54,7 +53,7 @@ main {
   display: none;
 }
 
-.user_num {
+.userNum {
   display: block;
   width: 45%;
   font-size: 16px;
