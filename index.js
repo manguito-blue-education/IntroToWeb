@@ -30,7 +30,7 @@ guessBtn.addEventListener(
 
     cluesContainer.style.display = "flex";
     tries.innerHTML = intentos;
-    clue.innerHTML = num > randomNumber ? "👎🏼" : "👍🏼";
+    clue.innerHTML = num > randomNumber ? "👇🏼" : "👆🏼";
   },
   false
 );
