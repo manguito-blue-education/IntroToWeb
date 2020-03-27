@@ -13,6 +13,8 @@ const congratsContainer = document.getElementById("congrats");
 const tries = document.getElementById("tries");
 const clue = document.getElementById("clue");
 
+// Casi siempre que das enter esperas que el botón debajo del input se presione, buena práctica al 100
+
 userNum.addEventListener(
   "keyup",
   event => event.keyCode === 13 && guessBtn.click()
