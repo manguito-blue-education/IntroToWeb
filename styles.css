@@ -18,10 +18,14 @@ button {
   padding: 10px;
   border-radius: 12px;
   cursor: pointer;
+  transition: 0.2s ease-out;
 }
 
-button:hover {
+/*El focus por default está ojete, pero si lo quitas debes de reemplazarlo por algo para que sirva al usuario*/
+button:hover,
+button:focus {
   background-color: #7f7fd5;
+  outline: none;
 }
 
 button:active {
